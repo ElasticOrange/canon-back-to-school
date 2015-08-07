@@ -1,0 +1,91 @@
+html { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, nevis, sans-serif;
+}
+
+body {
+    background-color: #eaeaea
+}
+
+.futer {
+    background-color:  #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 700px;*/
+    height: 380px;
+    position: relative;
+}
+
+.main-top {
+	top: -25px;
+	position: relative;
+    background: url(/img/doar-content.png) no-repeat top center;
+    height: 738px;
+    width: 100%;
+}
+
+.header-red {
+	position: relative;
+	background: url(/img/red-top.png) no-repeat top center fixed;
+	height: 125px;
+	width: 100%;
+}
+
+.header-btn {
+	border-radius: 8px;
+	background-color:  #ffffff;
+	width: 184px;
+	height: 58px;
+	float: left;
+	margin-right: 10px;
+}
+
+.center-mid {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    width: 780px;	
+    padding-top: 30px;
+}
+
+.header-span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #7c7c7c;
+    width: 162px;
+    height: 39px;
+    padding-left: 20px;
+}
+
+.pixma-cool {
+	padding-top: 10px;
+}
+
+.inscriere {
+	padding-top: 10px;
+}
+
+.castigatori {
+	padding-top: 10px;
+}
+
+span.header-span:hover {
+	color: #000000;
+}
+
+.triangle {
+	margin-left: 270px;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #c3000a;
+}
+
+.full-header {
+	z-index: 99;
+	position: relative;
+}
