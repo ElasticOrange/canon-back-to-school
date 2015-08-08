@@ -138,6 +138,10 @@ span.header-span:hover {
 	text-align: left;
 }
 
+.radio-inline+.radio-inline {
+	margin-left: 30px;
+}
+
 .red-split {
 	background-color: #da020d;
 	width: 547px;
@@ -178,19 +182,46 @@ span.header-span:hover {
 	font-size: 22.14px;/* Approximation due to font substitution */
 	font-weight: 400;
 	border-radius: 10px;
+	display: block;
+	margin-bottom: 20px;
 }
 
 .emailbox {
 	background-color:  #efefef;
-	width: 637px;
+	width: 300px;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 10px;
 }
 
 .numebox {
 	background-color:  #efefef;
-	width: 637px;
+	width: 300px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .telefonbox {
 	background-color:  #efefef;
-	width: 637px;
+	width: 300px;
+    display: inline-block;
+    margin-left: 119px;
+    margin-top: 10px;
 }
+
+.form-inscriere {
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+	position: relative;
+}
+
+h4.checkbox3 {
+    display: inline-block;
+}
+
+input.checkbox2 {
+    margin-top: 20px;
+}
+

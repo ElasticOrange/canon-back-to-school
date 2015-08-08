@@ -24,19 +24,18 @@
 	    
 	    <label for="nume" class="forlabel numelabel">Nume și Prenume</label>
 	    <input type="text"  value="{{ old('nume') }}" data-nume="true" name="nume" class="form-control numebox">
-		
+
 		<label for="telefon" class="forlabel telefonlabel">Telefon</label>
 		<input type="text" value="{{ old('telefon') }}" data-telefon="true" name="telefon" class="form-control telefonbox">
-		
 
-		<input type="checkbox" class="checkbox" name="contact" data-checkbox="true" value="1" checked="checked"> 
-			<h2 class="checkbox3">Accept să fiu informat despre viitoarele promotii</h2>
+		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked"> 
+			<h4 class="checkbox3">Accept să fiu informat despre viitoarele promotii</h4>
 	    <button type="submit" data-buton="true" class="btn-trimite">Mă inscriu</button>
 	</form>
 	</div>
 
 <div class="split"></div>
-<br /><br />
+<!-- <br /><br /> -->
 @include('footer')
 
 @stop
