@@ -22,3 +22,7 @@ Route::get('/homepage', function () {
 Route::get('/header', function () {
     return view('header');
 });
+
+Route::get('/inscriere', function () {
+    return view('inscriere');
+});
