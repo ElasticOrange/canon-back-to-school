@@ -3,15 +3,15 @@ html {
 }
 
 body {
-    background-color: #eaeaea
+    background-color: #efefef
 }
 
 .futer {
-    background-color:  #eaeaea;
+    background-color:  #efefef;
     margin-left: auto;
     margin-right: auto;
-    /*width: 700px;*/
-    height: 380px;
+    width: 780px;
+    height: 330px;
     position: relative;
 }
 
@@ -76,6 +76,7 @@ span.header-span:hover {
 }
 
 .triangle {
+    margin-top: -1px;
 	margin-left: 270px;
 	width: 0; 
 	height: 0; 
@@ -88,4 +89,23 @@ span.header-span:hover {
 .full-header {
 	z-index: 99;
 	position: relative;
+}
+
+.split {
+	background-color:  #ffffff;
+	width: 800px;
+	height: 5px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.promotie-canon {
+	margin-top: 10px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: url(/img/promotie-canon.png) no-repeat top center fixed;*/
+	height: 420px;
+	width: 780px;
 }

@@ -17,7 +17,7 @@
 
         @yield('content')
         
-        @include('footer')
+        <!-- @include('footer') -->
 
         @yield('js')
         
