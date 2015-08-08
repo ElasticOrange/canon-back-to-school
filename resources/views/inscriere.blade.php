@@ -17,6 +17,23 @@
 	<p class="steluta-red">*Te rugăm să răspunzi la intrebare pentru a te înscrie în concurs</p><br/><br/>
 	<p class="date-corecte">Asigură-te că ne dai datele corecte pentru a te contacta cât mai repede.</p>
 
+	<div class="form-inscriere">
+	<form action="/inscriere" data-form="true" method="post">
+		<label for="email" class="forlabel emaillabel">Email</label>
+		<input type="email" value="{{ old('email') }}" data-email="true" name="email" class="form-control emailbox">
+	    
+	    <label for="nume" class="forlabel numelabel">Nume și Prenume</label>
+	    <input type="text"  value="{{ old('nume') }}" data-nume="true" name="nume" class="form-control numebox">
+		
+		<label for="telefon" class="forlabel telefonlabel">Telefon</label>
+		<input type="text" value="{{ old('telefon') }}" data-telefon="true" name="telefon" class="form-control telefonbox">
+		
+
+		<input type="checkbox" class="checkbox" name="contact" data-checkbox="true" value="1" checked="checked"> 
+			<h2 class="checkbox3">Accept să fiu informat despre viitoarele promotii</h2>
+	    <button type="submit" data-buton="true" class="btn-trimite">Mă inscriu</button>
+	</form>
+	</div>
 
 <div class="split"></div>
 <br /><br />

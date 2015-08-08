@@ -169,3 +169,28 @@ span.header-span:hover {
 	margin-right: auto;
 	width: 760px;
 }
+
+.btn-trimite {
+	background-color:  #cc0001;
+	width: 148px;
+	height: 43px;
+	color:  #ffffff;
+	font-size: 22.14px;/* Approximation due to font substitution */
+	font-weight: 400;
+	border-radius: 10px;
+}
+
+.emailbox {
+	background-color:  #efefef;
+	width: 637px;
+}
+
+.numebox {
+	background-color:  #efefef;
+	width: 637px;
+}
+
+.telefonbox {
+	background-color:  #efefef;
+	width: 637px;
+}
