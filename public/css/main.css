@@ -232,11 +232,11 @@ span.header-span:hover {
     margin-top: 10px;
 }
 
-.form-control:focus {
+/*.form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
+}*/
 
 .form-inscriere {
 	margin-left: auto;
@@ -297,4 +297,33 @@ div.conditii {
 	font-weight: 400;
 	text-align: left;
 	line-height: 70px;
+}
+
+.warning {
+    border: 1px solid red;
+}
+
+.invizibil {
+    width: 300px;
+    height: 150px;
+    color: black;
+    display: none;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    font-size: 29px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.felicitari {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    width: 238px;
+    top: 60px;
+    left: 30px;
 }

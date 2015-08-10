@@ -11,14 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', 'HomeController@index');
+Route::post('/', 'HomeController@index');
 
-Route::get('/inscriere', function () {
-    return view('inscriere');
-});
+Route::get('/pixma-e-cool', 'HomeController@getVideo');
 
-Route::get('/pixma-e-cool', function () {
-    return view('video');
-});
+Route::get('/inscriere', 'EntryController@getIndex');
+Route::post('/inscriere', 'EntryController@postIndex');
