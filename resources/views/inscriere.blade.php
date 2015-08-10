@@ -5,8 +5,8 @@
 @section('content')
 @include('header')
 <div class="content">
-	<span class="date">Lasă-ne datele tale si poti câstiga prin tragere la sorti una din cele două imprimante Canon Pixma.</span>
-	<p class="intrebare">Ce functie ti s-a părut cea mai cool?</p><br/>
+	<span class="date">Lasă-ne datele tale şi poţi câştigă prin tragere la sorţi una din cele două imprimante Canon Pixma.</span>
+	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
 
 	<label class="radio-inline"><input type="radio" name="optradio">PIXMA Touch and Print (NFC)</label>
 	<label class="radio-inline"><input type="radio" name="optradio">Wi-fi</label>
@@ -14,7 +14,7 @@
 </div><br />
 
 <div class="red-split"></div>
-	<p class="steluta-red">*Te rugăm să răspunzi la intrebare pentru a te înscrie în concurs</p><br/>
+	<p class="steluta-red">*Te rugăm să răspunzi la întrebare pentru a te înscrie în concurs</p><br/>
 	<p class="date-corecte">Asigură-te că ne dai datele corecte pentru a te contacta cât mai repede.</p>
 
 	<div class="form-inscriere">

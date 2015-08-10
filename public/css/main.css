@@ -1,9 +1,10 @@
 html { 
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, nevis, sans-serif;
+    /*font-family: "Century Gothic", CenturyGothic, AppleGothic, nevis, sans-serif;*/
 }
 
 body {
-    background-color: #efefef
+    background-color: #efefef;
+    font-family: "Century Gothic", CenturyGothic;
 }
 
 .futer {
@@ -117,6 +118,13 @@ span.header-span:hover {
 	margin-right: auto;
 }
 
+.content-video {
+	width: 780px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .date {
 	color:  #000000;
 	font-size: 26px;/* Approximation due to font substitution */
@@ -186,6 +194,20 @@ span.header-span:hover {
 	margin: 20px 0;
 }
 
+.btn-trimite-inscriere {
+	background-color:  #cc0001;
+	width: 148px;
+	height: 43px;
+	color:  #ffffff;
+	font-size: 22.14px;/* Approximation due to font substitution */
+	font-weight: 400;
+	border-radius: 10px;
+	margin: 20px 0;
+	position: absolute;
+    right: 71px;
+    top: -20px;
+}
+
 .emailbox {
 	background-color:  #efefef;
 	width: 300px;
@@ -198,7 +220,7 @@ span.header-span:hover {
 	background-color:  #efefef;
 	width: 300px;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 10px;
 }
 
@@ -206,7 +228,7 @@ span.header-span:hover {
 	background-color:  #efefef;
 	width: 300px;
     display: inline-block;
-    margin-left: 119px;
+    margin-left: 121px;
     margin-top: 10px;
 }
 
@@ -242,7 +264,7 @@ input.checkbox2 {
 
 .conditii {
 	color:  #7a7a7a;
-	font-size: 11px;/* Approximation due to font substitution */
+	font-size: 12px;/* Approximation due to font substitution */
 	font-weight: 400;
 	text-align: left;
 }
@@ -259,4 +281,20 @@ div.conditii {
 	font-size: 23px;/* Approximation due to font substitution */
 	font-weight: 400;
 	text-align: left;
+}
+
+.regulament2 {
+	color:  #7a7a7a;
+	font-size: 23px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: left;
+    margin-top: -30px;
+}
+
+.video-page {
+	color:  #000000;
+	font-size: 26px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: left;
+	line-height: 70px;
 }

@@ -12,17 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('master');
-});
-
-Route::get('/homepage', function () {
     return view('homepage');
-});
-
-Route::get('/header', function () {
-    return view('header');
 });
 
 Route::get('/inscriere', function () {
     return view('inscriere');
+});
+
+Route::get('/pixma-e-cool', function () {
+    return view('video');
 });
