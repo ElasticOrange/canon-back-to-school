@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', 'Canon')
+@section('title', 'Canon back to school')
 
 @section('content')
 @include('header')
@@ -45,7 +45,19 @@
 <div class="split"></div>
 <br /><br />
 
-@include('footer')
+
+<div class="futer">
+	<img class="premii-concurs" src="/img/premii.png">
+	<span class="premii">PREMII CONCURS | </span>
+
+	<span class="premii-intrebare">Răspunde la întrebarea noastră şi intri automat în concurs!</span>
+	
+	<span class="doix">2 x</span>
+	<span class="unux">1 x</span>
+	<span class="imprimanta">Imprimanta Canon PIXMA</span>
+	<span class="ipad">iPad Mini</span>
+
+</div>
 <br />
 <div class="conditii">
 	<p class="conditii">Promoţie valabilă în perioada 24 august - 30 septembrie 2015.</p>

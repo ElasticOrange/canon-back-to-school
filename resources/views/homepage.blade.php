@@ -1,26 +1,45 @@
 @extends('master')
 
-@section('title', 'Canon')
-
-
-
-
+@section('title', 'Canon back to school')
 
 @section('content')
 @include('header')
-	<div class="main-top"></div>
-
-	<div class="futer">
-		<img class="premii-concurs" src="/img/premii-concurs.png">
+	<div class="main-top">
+		<p class="school-ready">Pregăteşte-te şi începe şcoală cu oferte interesante!</p>
 	</div>
 
+	<div class="futer">
+		<img class="premii-concurs" src="/img/premii.png">
+		<span class="premii">PREMII CONCURS | </span>
+
+		<span class="premii-intrebare">Răspunde la întrebarea noastră şi intri automat în concurs!</span>
+
+		<span class="doix">2 x</span>
+		<span class="unux">1 x</span>
+		<span class="imprimanta">Imprimanta Canon PIXMA</span>
+		<span class="ipad">iPad Mini</span>
+	
+		<form action="/pixma-e-cool">
+		    <input type="submit" class="btn-trimite-pixma" value="Mai departe">
+		</form>
+	</div>
+
+	<br /><br /><br />
 	<div class="split"></div>
 
 	<div class="promotie-canon">
-		<img src="/img/promotie-canon.png">
+		<img src="/img/promotie.png">
+		<span class="promotie">PROMOŢIE CANON | </span>
+		<span class="promotie-pipe">Rechizite cool Cadou</span>
+		<span class="promotie-parteneri">Primeşti un set de rechizite cadou la achiziţionarea unei 
+imprimante Pixma aflate în promoţie la partenerii autorizaţi.</span>
 	</div>
 	
 	<div class="conditii">
+		<p class="conditii1">Promoţie valabilă în perioada 24 august - 30 septembrie 2015.</p>
+
+		<p class="conditii2">**Canon Pixma MG5650, MG6650, MG7550, MX535, MX925, LBP6030, MF3010, MF211</p>
+		
 		<a href="#">
 			<p class="regulament2">REGULAMENT ></p>
 		</a>

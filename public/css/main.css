@@ -189,9 +189,23 @@ span.header-span:hover {
 	color:  #ffffff;
 	font-size: 22.14px;/* Approximation due to font substitution */
 	font-weight: 400;
-	border-radius: 10px;
+	border-radius: 7px;
 	display: block;
 	margin: 20px 0;
+}
+
+.btn-trimite-pixma {
+	background-color:  #cc0001;
+	width: 148px;
+	height: 43px;
+	color:  #ffffff;
+	font-size: 22.14px;/* Approximation due to font substitution */
+	font-weight: 400;
+	border-radius: 7px;
+	position: absolute;
+	margin: 20px 0;
+    right: 156px;
+    bottom: -60px;
 }
 
 .btn-trimite-inscriere {
@@ -201,7 +215,7 @@ span.header-span:hover {
 	color:  #ffffff;
 	font-size: 22.14px;/* Approximation due to font substitution */
 	font-weight: 400;
-	border-radius: 10px;
+	border-radius: 7px;
 	margin: 20px 0;
 	position: absolute;
     right: 71px;
@@ -326,4 +340,126 @@ div.conditii {
     width: 238px;
     top: 60px;
     left: 30px;
+}
+
+.school-ready {
+    width: 720px;
+    color: #ffffff;
+    font-size: 47px;
+    font-weight: 400;
+    text-align: left;
+    top: 600px;
+    left: 410px;
+    position: absolute;
+}
+
+span.premii {
+    top: -9px;
+    position: absolute;
+    left: 33px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+span.premii-intrebare {
+	color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    width: 384px;
+    height: 51px;
+    top: -15px;
+    position: absolute;
+    left: 373px;
+}
+
+span.promotie {
+    position: absolute;
+    top: -7px;
+    left: 36px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+span.promotie-pipe {
+    position: absolute;
+    top: -5px;
+    left: 390px;
+    color: #000000;
+    font-size: 33px;
+    font-weight: 400;
+    text-align: left;
+}
+
+span.promotie-parteneri {
+    position: absolute;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    left: 1px;
+    top: 50px;
+}
+
+p.conditii1 {
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    top: -50px;
+}
+
+p.conditii2 {
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    top: -30px;
+}
+
+span.doix {
+	color:  #000000;
+	font-size: 47.86px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	top: 70px;
+}
+
+span.unux {
+	color:  #000000;
+	font-size: 47.86px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: left;
+	position: absolute;
+    right: 200px;
+    top: 70px;
+}
+
+span.imprimanta {
+	color:  #000000;
+	font-size: 20.09px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: left;
+	position: absolute;
+	left: 0;
+    top: 160px;
+    width: 130px;
+}
+
+span.ipad {
+	color:  #000000;
+	font-size: 20.09px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: left;
+	position: absolute;
+    right: 180px;
+    top: 170px;
 }
