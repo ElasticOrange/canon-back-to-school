@@ -201,17 +201,18 @@ span.header-span:hover {
 }
 
 .btn-trimite-pixma {
-	background-color:  #cc0001;
-	width: 148px;
-	height: 43px;
-	color:  #ffffff;
-	font-size: 22.14px;/* Approximation due to font substitution */
-	font-weight: 400;
-	border-radius: 7px;
-	position: absolute;
-	margin: 20px 0;
+    background-color: #cc0001;
+    width: 148px;
+    height: 43px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 7px;
+    position: absolute;
+    margin-bottom: 30px;
     right: 156px;
-    bottom: -60px;
+    bottom: -80px;
+    text-align: center;
 }
 
 .btn-trimite-inscriere {
@@ -492,4 +493,14 @@ span.back-to-school {
 .show-inscriere {
 	display: block;
 	top: 46px;
+}
+
+.btn-pixma {
+	vertical-align: middle;
+    position: absolute;
+    width: 148px;
+    height: 43px;
+    left: 0px;
+    text-align: center;
+    top: 5px;
 }
