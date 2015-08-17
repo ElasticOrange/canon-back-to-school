@@ -483,6 +483,7 @@ span.back-to-school {
 
 .show-home {
 	display: block;
+	top: 46px;
 }
 
 .show-pixma {
@@ -497,6 +498,15 @@ span.back-to-school {
 
 .btn-pixma {
 	vertical-align: middle;
+    position: absolute;
+    width: 148px;
+    height: 43px;
+    left: 0px;
+    text-align: center;
+    top: 5px;
+}
+
+span.btn-inscriere {
     position: absolute;
     width: 148px;
     height: 43px;

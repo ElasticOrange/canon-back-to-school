@@ -19,10 +19,7 @@
 		<span class="imprimanta">Imprimanta Canon PIXMA</span>
 		<span class="ipad">iPad Mini</span>
 
-		<!-- <form action="/pixma-e-cool"> -->
 		<a href="/pixma-e-cool"><div class="btn-trimite-pixma"><span class="btn-pixma">Mai departe</span></div></a>
-		    <!-- <input type="submit" class="btn-trimite-pixma" value="Mai departe"> -->
-		<!-- </form> -->
 	</div>
 
 	<br /><br /><br /><br />

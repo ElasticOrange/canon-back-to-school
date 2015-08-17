@@ -27,8 +27,6 @@
 		<p class="regulament">REGULAMENT ></p>
 	</a>
 
-	<form action="/inscriere">
-	    <input type="submit" class="btn-trimite-inscriere" value="Mai departe">
-	</form>
+	<a href="/inscriere"><div class="btn-trimite-inscriere"><span class="btn-inscriere">Mai departe</span></div></a>
 </div>
 @stop
