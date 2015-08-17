@@ -35,14 +35,14 @@
 
 		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked"> 
 			<h4 class="checkbox3">Accept să fiu informat despre viitoarele promoţii</h4>
-	    <button type="submit" data-buton="true" class="btn-trimite">Mă inscriu</button>
+	    	<div type="submit" data-buton="true" class="btn-trimite"><span class="btn-inscrie">Mă inscriu</span></div>
 	</form>
 	</div>
 
 <div class="invizibil">
     <h3 class="felicitari">Felicitări! Te-ai înscris cu succes!</h3>
 </div>
-
+<br /><br /><br /><br /><br />
 <div class="split"></div>
 <br /><br />
 

@@ -198,6 +198,8 @@ span.header-span:hover {
 	border-radius: 7px;
 	display: block;
 	margin: 20px 0;
+	position: absolute;
+    cursor: pointer;
 }
 
 .btn-trimite-pixma {
@@ -508,6 +510,15 @@ span.back-to-school {
 
 span.btn-inscriere {
     position: absolute;
+    width: 148px;
+    height: 43px;
+    left: 0px;
+    text-align: center;
+    top: 5px;
+}
+
+span.btn-inscrie {
+	position: absolute;
     width: 148px;
     height: 43px;
     left: 0px;
