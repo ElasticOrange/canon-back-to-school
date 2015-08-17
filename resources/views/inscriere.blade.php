@@ -6,7 +6,7 @@
 @include('header')
 <br />
 <div class="content">
-	<span class="date">Lasă-ne datele tale şi poţi câştigă prin tragere la sorţi una din cele două imprimante Canon Pixma.</span>
+	<span class="date">Lasă-ne datele tale şi poţi câştiga prin tragere la sorţi una din cele două imprimante Canon Pixma.</span>
 	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
 
 	<label class="radio-inline"><input type="radio" value="1" checked="checked" name="optradio">PIXMA Touch and Print (NFC)</label>
