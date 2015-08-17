@@ -463,3 +463,8 @@ span.ipad {
     right: 180px;
     top: 170px;
 }
+
+span.back-to-school {
+    line-height: 19px;
+    padding-top: 9px;
+}

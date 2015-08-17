@@ -3,7 +3,7 @@
 		<div class="center-mid">
 			<a href="/">
 			<div class="header-btn school-promo">
-				<span class="header-span">Back to school promo</span>
+				<span class="header-span back-to-school">Back to school promo</span>
 			</div>
 			</a>
 
