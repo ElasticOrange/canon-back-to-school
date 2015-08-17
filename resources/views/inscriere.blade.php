@@ -8,13 +8,16 @@
 <div class="content">
 	<span class="date">Lasă-ne datele tale şi poţi câştiga prin tragere la sorţi una din cele două imprimante Canon Pixma.</span>
 	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
+	<br />
 
 	<label class="radio-inline"><input type="radio" value="1" checked="checked" name="optradio">PIXMA Touch and Print (NFC)</label>
 	<label class="radio-inline"><input type="radio" value="2" name="optradio">Wi-fi</label>
 	<label class="radio-inline"><input type="radio" value="3" name="optradio">Cloud Printing</label>
 <br />
+<br />
 
 <div class="red-split"></div>
+	<br />
 	<p class="steluta-red">*Te rugăm să răspunzi la întrebare pentru a te înscrie în concurs</p><br/>
 	<p class="date-corecte">Asigură-te că ne dai datele corecte pentru a te contacta cât mai repede.</p>
 </div>
