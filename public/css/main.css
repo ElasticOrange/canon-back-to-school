@@ -371,13 +371,13 @@ span.premii {
 }
 
 span.premii-intrebare {
-	color: #000000;
-    font-size: 25px;
+    color: #000000;
+    font-size: 20px;
     font-weight: 400;
     text-align: left;
     width: 384px;
-    height: 51px;
-    top: -15px;
+    height: 66px;
+    top: -10px;
     position: absolute;
     left: 373px;
 }
