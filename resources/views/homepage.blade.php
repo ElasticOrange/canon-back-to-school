@@ -5,7 +5,7 @@
 @section('content')
 @include('header')
 	<div class="main-top">
-		<p class="school-ready">Pregăteşte-te şi începe şcoala cu oferte interesante!</p>
+		<p class="school-ready">PREGĂTEŞTE-TE ŞI ÎNCEPE ŞCOALA CU OFERTE INTERESANTE!</p>
 	</div>
 
 	<div class="futer">
