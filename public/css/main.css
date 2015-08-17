@@ -78,14 +78,19 @@ span.header-span:hover {
 }
 
 .triangle {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 51px;
+    left: -30px;
     margin-top: -1px;
-	margin-left: 270px;
 	width: 0; 
 	height: 0; 
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	
 	border-top: 20px solid #c3000a;
+	display: none;
 }
 
 .full-header {
@@ -475,3 +480,16 @@ span.back-to-school {
 	color: #000000;
 }
 
+.show-home {
+	display: block;
+}
+
+.show-pixma {
+	display: block;
+	top: 46px;
+}
+
+.show-inscriere {
+	display: block;
+	top: 46px;
+}

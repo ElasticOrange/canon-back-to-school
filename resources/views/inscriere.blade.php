@@ -4,6 +4,7 @@
 
 @section('content')
 @include('header')
+<br />
 <div class="content">
 	<span class="date">Lasă-ne datele tale şi poţi câştigă prin tragere la sorţi una din cele două imprimante Canon Pixma.</span>
 	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
