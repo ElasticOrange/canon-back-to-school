@@ -19,16 +19,23 @@ body {
 .main-top {
 	top: -25px;
 	position: relative;
-    background: url(/img/doar-content.png) no-repeat top center;
+    background: url(/img/bg_tabla.jpg) no-repeat top center;
     height: 738px;
     width: 100%;
 }
 
 .header-red {
 	position: relative;
-	background: url(/img/red-top.png) no-repeat top center fixed;
+	background: url(/img/patru.jpg) no-repeat top center fixed;
 	height: 125px;
 	width: 100%;
+}
+
+.content-home {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
 }
 
 .header-btn {
@@ -357,7 +364,7 @@ div.conditii {
     font-size: 45px;
     font-weight: 400;
     text-align: left;
-    top: 610px;
+    top: 10px;
     position: relative;
     margin-left: auto;
     margin-right: auto;

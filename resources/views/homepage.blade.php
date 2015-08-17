@@ -5,6 +5,9 @@
 @section('content')
 @include('header')
 	<div class="main-top">
+		<div class="content-home">
+			<img src="/img/homepage-content.png">
+		</div>
 		<p class="school-ready">PREGĂTEŞTE-TE ŞI ÎNCEPE ŞCOALA CU OFERTE INTERESANTE!</p>
 	</div>
 
