@@ -14,7 +14,7 @@ class EntryController extends Controller
 {
     public function getIndex()
 	{
-		return view('inscriere');
+		return view('inscriere')->with('page', 'inscriere');
 	}
 
 	public function postIndex(CreateEntryRequest $request)
@@ -22,7 +22,6 @@ class EntryController extends Controller
 		$input = $request->all();
 
 		Entry::create($input);
-// dd($input);
 		return response()->json([
                                   'status' => 'OK'
                                 , 'message' => 'Formul nu a fost completat'

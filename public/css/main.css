@@ -74,6 +74,7 @@ body {
 
 span.header-span:hover {
 	color: #000000;
+	text-decoration: none;
 }
 
 .triangle {
@@ -468,3 +469,8 @@ span.back-to-school {
     line-height: 19px;
     padding-top: 9px;
 }
+
+.active {
+	color: #000000;
+}
+

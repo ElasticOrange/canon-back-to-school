@@ -11,11 +11,11 @@ class HomeController extends Controller
 {
 	public function index()
 	{
-		return view('homepage');
+		return view('homepage')->with('page', 'back-to-school');
 	}
 
 	public function getVideo()
 	{
-		return view('video');	
+		return view('video')->with('page', 'pixma-e-cool');
 	}
 }

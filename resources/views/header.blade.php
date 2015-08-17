@@ -2,27 +2,28 @@
 	<div class="header-red">
 		<div class="center-mid">
 			<a href="/">
-			<div class="header-btn school-promo">
-				<span class="header-span back-to-school">Back to school promo</span>
-			</div>
+				<div class="header-btn school-promo">
+					<span class="header-span back-to-school <?php echo ($page == "back-to-school" ? "active" : "")?>">Back to school promo</span>
+				</div>
 			</a>
 
 			<a href="/pixma-e-cool">
-			<div class="header-btn pixma-cool">
-				<span class="header-span">Pixma e cool</span>
-			</div>
+				<div class="header-btn pixma-cool">
+					<span class="header-span <?php echo ($page == "pixma-e-cool" ? "active" : "")?>">Pixma e cool</span>
+				</div>
 			</a>
 
 			<a href="/inscriere">
-			<div class="header-btn inscriere">
-				<span class="header-span">Inscriere</span>
-			</div>
+				<div class="header-btn inscriere">
+					<span class="header-span <?php echo ($page == "inscriere" ? "active" : "")?>">Inscriere</span>
+				</div>
 			</a>
 
-
-			<div class="header-btn castigatori">
-				<span class="header-span">Castigatori</span>
-			</div>
+			<a href="#">
+				<div class="header-btn castigatori">
+					<span class="header-span">Castigatori</span>
+				</div>
+			</a>
 		</div>
 	</div>
 	<div class="triangle"></div>
