@@ -556,7 +556,7 @@ input[type='radio'] {
     top: 2px;
     width:18px;
     height:18px;
-    border:1px solid darkgray;
+    border:1px solid #cfcfcf;
     border-radius:50%;
     outline:none;
     box-shadow:0 0 5px 0px gray inset;
@@ -573,5 +573,5 @@ input[type='radio']:before {
     border-radius:50%;
 }
 input[type='radio']:checked:before {
-    background:red;
+    background: #cc0001;
 }
