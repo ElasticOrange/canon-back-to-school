@@ -240,7 +240,7 @@ span.header-span:hover {
 
 .emailbox {
     position: absolute;
-    left: 40px;
+    left: 60px;
     top: -33px;
     background-color: transparent;
 	width: 580px;
@@ -252,7 +252,7 @@ span.header-span:hover {
 
 .numebox {
     position: absolute;
-    left: 110px;
+    left: 130px;
     top: 8px;
 	background-color: transparent;
 	width: 580px;
@@ -264,7 +264,7 @@ span.header-span:hover {
 
 .telefonbox {
     position: absolute;
-    left: 49px;
+    left: 69px;
     top: 48px;
 	background-color: transparent;
 	width: 580px;
@@ -627,18 +627,18 @@ input[type='radio']:checked:before {
 
 .email-input {
     position: absolute;
-    left: 170px;
+    left: 190px;
 }
 
 .nume-input {
     position: absolute;
-    left: 170px;
+    left: 190px;
     top: 40px;
 }
 
 .telefon-input {
     position: absolute;
-    left: 170px;
+    left: 190px;
     top: 80px;
 }
 
