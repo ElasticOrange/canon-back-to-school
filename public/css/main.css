@@ -561,9 +561,11 @@ input[type='radio'] {
     outline:none;
     box-shadow:0 0 5px 0px gray inset;
 }
-input[type='radio']:hover {
-    box-shadow:0 0 5px 0px orange inset;
-}
+
+/*input[type='radio']:hover {
+    box-shadow: none;
+}*/
+
 input[type='radio']:before {
     content:'';
     display:block;
@@ -572,6 +574,7 @@ input[type='radio']:before {
     margin:auto;
     border-radius:50%;
 }
+
 input[type='radio']:checked:before {
     background: #cc0001;
 }

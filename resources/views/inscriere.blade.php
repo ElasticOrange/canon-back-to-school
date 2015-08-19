@@ -10,9 +10,9 @@
 	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
 	<br />
 
-	<label class="radio-inline"><input type="radio" value="1" checked="checked" name="optradio">PIXMA Touch and Print (NFC)</label>
-	<label class="radio-inline"><input type="radio" value="2" name="optradio">Wi-fi</label>
-	<label class="radio-inline"><input type="radio" value="3" name="optradio">Cloud Printing</label>
+	<label class="radio-inline"><input type="radio" value="1" id="myRadio1" onclick="loseFocus()" checked="checked" name="optradio">PIXMA Touch and Print (NFC)</label>
+	<label class="radio-inline"><input type="radio" value="2" id="myRadio2" onclick="loseFocus()" name="optradio">Wi-fi</label>
+	<label class="radio-inline"><input type="radio" value="3" id="myRadio3" onclick="loseFocus()" name="optradio">Cloud Printing</label>
 <br />
 <br />
 
@@ -73,6 +73,14 @@
 	</a>
 </div>
 @stop
+
+<script>
+function loseFocus() {
+    document.getElementById("myRadio1").blur();
+    document.getElementById("myRadio2").blur();
+    document.getElementById("myRadio3").blur();
+}
+</script>
 
 @section('js')
 <script src="/js/form.js"></script>
