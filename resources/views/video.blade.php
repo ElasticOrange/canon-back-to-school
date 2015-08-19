@@ -10,17 +10,20 @@
 
 	<h4 class="video-page">NFC în viaţa reală</h4>
 	<div class="video">
-		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/-_C7mmFFTeM" frameborder="0" allowfullscreen></iframe>
+		<!-- <iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/-_C7mmFFTeM" frameborder="0" allowfullscreen></iframe> -->
+		<div class="frame"></div>
 	</div>
 
 	<h4 class="video-page">Cu capul în nori şi cloud printing</h4>
 	<div class="video">
-		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/-_C7mmFFTeM" frameborder="0" allowfullscreen></iframe>
+		<!-- <iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/-_C7mmFFTeM" frameborder="0" allowfullscreen></iframe> -->
+		<div class="frame"></div>
 	</div>
 
 	<h4 class="video-page">Imprimă de oriunde cu Wi-fi</h4>
 	<div class="video">
-		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/-_C7mmFFTeM" frameborder="0" allowfullscreen></iframe>
+		<!-- <iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/-_C7mmFFTeM" frameborder="0" allowfullscreen></iframe> -->
+		<div class="frame"></div>
 	</div>
 </div>
 <br /><br />
