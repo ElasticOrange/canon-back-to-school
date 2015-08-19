@@ -253,7 +253,7 @@ span.header-span:hover {
 .numebox {
     position: absolute;
     left: 110px;
-    top: 6px;
+    top: 8px;
 	background-color: transparent;
 	width: 580px;
     display: inline-block;
@@ -398,11 +398,11 @@ span.premii-intrebare {
     font-size: 20px;
     font-weight: 400;
     text-align: left;
-    width: 384px;
+    width: 584px;
     height: 66px;
     top: -10px;
     position: absolute;
-    left: 373px;
+    left: 203px;
 }
 
 span.promotie {
@@ -631,4 +631,12 @@ input[type='radio']:checked:before {
     position: absolute;
     left: 170px;
     top: 80px;
+}
+
+input[type='radio']:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

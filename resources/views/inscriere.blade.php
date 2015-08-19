@@ -10,9 +10,9 @@
 	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
 	<br />
 
-	<label class="radio-inline"><input type="radio" value="1" id="myRadio1" onclick="loseFocus()" checked="checked" name="optradio">PIXMA Touch and Print (NFC)</label>
-	<label class="radio-inline"><input type="radio" value="2" id="myRadio2" onclick="loseFocus()" name="optradio">Wi-fi</label>
-	<label class="radio-inline"><input type="radio" value="3" id="myRadio3" onclick="loseFocus()" name="optradio">Cloud Printing</label>
+	<label class="radio-inline"><input type="radio" value="1" checked="checked" name="optradio">PIXMA Touch and Print (NFC)</label>
+	<label class="radio-inline"><input type="radio" value="2" name="optradio">Wi-fi</label>
+	<label class="radio-inline"><input type="radio" value="3" name="optradio">Cloud Printing</label>
 <br />
 <br />
 
@@ -25,17 +25,17 @@
 	<div class="form-inscriere">
 	<form action="/inscriere" data-form="true" method="post">
 		<label for="email" class="forlabel emaillabel">Email</label>
-		<input type="email" value="{{ old('email') }}" data-email="true" onclick="loseFocus()" name="email" class="emailbox">
+		<input type="email" value="{{ old('email') }}" data-email="true" name="email" class="emailbox">
 		<div class="blackline email-input"></div>
 		<br>
 	    
 	    <label for="nume" class="forlabel numelabel">Nume și Prenume</label>
-	    <input type="text"  value="{{ old('nume') }}" data-nume="true" onclick="loseFocus()" name="nume" class="numebox">
+	    <input type="text"  value="{{ old('nume') }}" data-nume="true" name="nume" class="numebox">
 	    <div class="blackline nume-input"></div>
 		<br /><br />
 
 		<label for="telefon" class="forlabel telefonlabel">Telefon</label>
-		<input type="text" value="{{ old('telefon') }}" data-telefon="true" onclick="loseFocus()" name="telefon" class="telefonbox">
+		<input type="text" value="{{ old('telefon') }}" data-telefon="true" name="telefon" class="telefonbox">
 		<div class="blackline telefon-input"></div>
 		<br /><br />
 
@@ -55,9 +55,9 @@
 
 <div class="futer">
 	<img class="premii-concurs" src="/img/premii.png">
-	<span class="premii">PREMII CONCURS | </span>
+	<span class="premii">PREMII | </span>
 
-	<span class="premii-intrebare">Răspunde la întrebarea noastră şi intri automat în concurs!</span>
+	<span class="premii-intrebare">Urmăreste-ne si află dacă ai câstigat, extragerile vor avea loc pe data de 1 octombrie 2015</span>
 	
 	<span class="doix">2 x</span>
 	<span class="unux">1 x</span>
@@ -76,18 +76,6 @@
 	</a>
 </div>
 @stop
-
-<script>
-function loseFocus() 
-{
-    document.getElementById("myRadio1").blur();
-    document.getElementById("myRadio2").blur();
-    document.getElementById("myRadio3").blur();
-    $('[data-email=true]').blur();
-    $('[data-nume=true]').blur();
-    $('[data-telefon=true]').blur();
-}
-</script>
 
 @section('js')
 <script src="/js/form.js"></script>

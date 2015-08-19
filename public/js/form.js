@@ -34,23 +34,23 @@ $(document).ready(function() {
                 },
                 error: function(p)
                 {
-                    $('.form-control').removeClass("warning");
+                    $('.blackline').removeClass("warning");
                     
                     if (typeof p.responseJSON.email != 'undefined')
                     {
-                        $('[data-email=true]').addClass("warning");
+                        $('.email-input').addClass("warning");
                         console.log('Nu exista email');
                     }
                     
                     if (typeof p.responseJSON.nume != 'undefined')
                     {
                         console.log('Nu exista nume');
-                        $('[data-nume=true]').addClass("warning");
+                        $('.nume-input').addClass("warning");
                     }
                     
                     if (typeof p.responseJSON.telefon != 'undefined')
                     {
-                        $('[data-telefon=true]').addClass("warning");
+                        $('.telefon-input').addClass("warning");
                         console.log('Nu exista telefon');
                     }
                     
