@@ -18,14 +18,14 @@
 
 			<a href="/inscriere">
 				<div class="header-btn inscriere">
-					<span class="header-span <?php echo ($page == "inscriere" ? "active" : "")?>">Inscriere</span>
+					<span class="header-span <?php echo ($page == "inscriere" ? "active" : "")?>">Înscriere</span>
 					<div class="triangle <?php echo ($page == "inscriere" ? "show-inscriere" : "")?>"></div>
 				</div>
 			</a>
 
 			<a href="#">
 				<div class="header-btn castigatori">
-					<span class="header-span">Castigatori</span>
+					<span class="header-span">Câştigători</span>
 				</div>
 			</a>
 		</div>

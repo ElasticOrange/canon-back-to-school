@@ -15,7 +15,7 @@
 		<img class="premii-concurs" src="/img/premii.png">
 		<span class="premii">PREMII | </span>
 
-		<span class="premii-intrebare">Urmăreste-ne si află dacă ai câstigat, extragerile vor avea loc pe data de 1 octombrie 2015</span>
+		<span class="premii-intrebare">Urmăreşte-ne şi află dacă ai câştigat, extragerile vor avea loc pe data de 1 octombrie 2015</span>
 
 		<span class="doix">2 x</span>
 		<span class="unux">1 x</span>
