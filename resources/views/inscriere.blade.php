@@ -77,6 +77,17 @@
 </div>
 @stop
 
+
 @section('js')
+<script type="text/javascript" language="javascript">
+	
+	$('div.form-inscriere input').blur(function() {
+		$('.blackline').removeClass('blackline-selected');
+	});
+
+	$('div.form-inscriere input').click(function() {
+		$(this).next().addClass('blackline-selected');
+	});
+</script>
 <script src="/js/form.js"></script>
 @stop

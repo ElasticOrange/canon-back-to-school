@@ -39,19 +39,19 @@ $(document).ready(function() {
                     if (typeof p.responseJSON.email != 'undefined')
                     {
                         $('.email-input').addClass("warning");
-                        console.log('Nu exista email');
+                        // console.log('Nu exista email');
                     }
                     
                     if (typeof p.responseJSON.nume != 'undefined')
                     {
-                        console.log('Nu exista nume');
                         $('.nume-input').addClass("warning");
+                        // console.log('Nu exista nume');
                     }
                     
                     if (typeof p.responseJSON.telefon != 'undefined')
                     {
                         $('.telefon-input').addClass("warning");
-                        console.log('Nu exista telefon');
+                        // console.log('Nu exista telefon');
                     }
                     
                     console.log(p);
