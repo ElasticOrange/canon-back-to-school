@@ -239,27 +239,39 @@ span.header-span:hover {
 }
 
 .emailbox {
-	background-color:  #efefef;
-	width: 300px;
+    position: absolute;
+    left: 40px;
+    top: -33px;
+    background-color: transparent;
+	width: 580px;
     display: inline-block;
     margin-left: 130px;
     margin-top: 10px;
+    border: 0px solid;
 }
 
 .numebox {
-	background-color:  #efefef;
-	width: 300px;
+    position: absolute;
+    left: 110px;
+    top: 6px;
+	background-color: transparent;
+	width: 580px;
     display: inline-block;
     margin-left: 60px;
     margin-top: 10px;
+    border: 0px solid;
 }
 
 .telefonbox {
-	background-color:  #efefef;
-	width: 300px;
+    position: absolute;
+    left: 49px;
+    top: 48px;
+	background-color: transparent;
+	width: 580px;
     display: inline-block;
     margin-left: 121px;
     margin-top: 10px;
+    border: 0px solid;
 }
 
 /*.form-control:focus {
@@ -278,8 +290,9 @@ span.header-span:hover {
 h4.checkbox3 {
     display: inline-block;
     position: absolute;
-    top: 141px;
+    top: 105px;
     left: 30px;
+    font-size: 18px;
 }
 
 input.checkbox2 {
@@ -577,4 +590,45 @@ input[type='radio']:before {
 
 input[type='radio']:checked:before {
     background: #cc0001;
+}
+
+.numelabel {
+    position: absolute;
+    top: 20px;
+    font-size: 21px;
+}
+
+.emaillabel {
+    position: absolute;
+    top: -20px;
+    font-size: 21px;
+}
+
+.telefonlabel {
+    position: absolute;
+    top: 60px;
+    font-size: 21px;
+}
+
+.blackline {
+    background-color:  #686868;
+    width: 580px;
+    height: 2px;
+}
+
+.email-input {
+    position: absolute;
+    left: 170px;
+}
+
+.nume-input {
+    position: absolute;
+    left: 170px;
+    top: 40px;
+}
+
+.telefon-input {
+    position: absolute;
+    left: 170px;
+    top: 80px;
 }

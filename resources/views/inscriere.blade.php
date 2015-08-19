@@ -19,22 +19,25 @@
 <div class="red-split"></div>
 	<br />
 	<p class="steluta-red">*Te rugăm să răspunzi la întrebare pentru a te înscrie în concurs</p><br/>
-	<p class="date-corecte">Asigură-te că ne dai datele corecte pentru a te contacta cât mai repede.</p>
+	<p class="date-corecte">Asigură-te că ne dai datele corecte pentru a te contacta cât mai repede.</p><br /> <br />
 </div>
 
 	<div class="form-inscriere">
 	<form action="/inscriere" data-form="true" method="post">
 		<label for="email" class="forlabel emaillabel">Email</label>
-		<input type="email" value="{{ old('email') }}" data-email="true" name="email" class="form-control emailbox">
+		<input type="email" value="{{ old('email') }}" data-email="true" onclick="loseFocus()" name="email" class="emailbox">
+		<div class="blackline email-input"></div>
 		<br>
 	    
 	    <label for="nume" class="forlabel numelabel">Nume și Prenume</label>
-	    <input type="text"  value="{{ old('nume') }}" data-nume="true" name="nume" class="form-control numebox">
-		<br />
+	    <input type="text"  value="{{ old('nume') }}" data-nume="true" onclick="loseFocus()" name="nume" class="numebox">
+	    <div class="blackline nume-input"></div>
+		<br /><br />
 
 		<label for="telefon" class="forlabel telefonlabel">Telefon</label>
-		<input type="text" value="{{ old('telefon') }}" data-telefon="true" name="telefon" class="form-control telefonbox">
-		<br />
+		<input type="text" value="{{ old('telefon') }}" data-telefon="true" onclick="loseFocus()" name="telefon" class="telefonbox">
+		<div class="blackline telefon-input"></div>
+		<br /><br />
 
 		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked"> 
 			<h4 class="checkbox3">Accept să fiu informat despre viitoarele promoţii</h4>
@@ -75,10 +78,14 @@
 @stop
 
 <script>
-function loseFocus() {
+function loseFocus() 
+{
     document.getElementById("myRadio1").blur();
     document.getElementById("myRadio2").blur();
     document.getElementById("myRadio3").blur();
+    $('[data-email=true]').blur();
+    $('[data-nume=true]').blur();
+    $('[data-telefon=true]').blur();
 }
 </script>
 
