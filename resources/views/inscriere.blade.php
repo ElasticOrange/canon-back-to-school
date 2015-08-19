@@ -29,7 +29,7 @@
 		<div class="blackline email-input"></div>
 		<br>
 	    
-	    <label for="nume" class="forlabel numelabel">Nume și Prenume</label>
+	    <label for="nume" class="forlabel numelabel">Nume şi Prenume</label>
 	    <input type="text"  value="{{ old('nume') }}" data-nume="true" name="nume" class="numebox">
 	    <div class="blackline nume-input"></div>
 		<br /><br />
