@@ -26,7 +26,7 @@ body {
 
 .header-red {
 	position: relative;
-	background: url(/img/patru.jpg) no-repeat top center fixed;
+    background-color: #c3000a;
 	height: 125px;
 	width: 100%;
 }

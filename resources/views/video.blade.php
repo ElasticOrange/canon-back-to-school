@@ -16,13 +16,13 @@
 
 	<h4 class="video-page">Cu capul în nori şi cloud printing</h4>
 	<div class="video">
-		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/4Kl_kIAN914" frameborder="0" allowfullscreen></iframe>
+		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/zvP8z0pcZ1k" frameborder="0" allowfullscreen></iframe>
 		<!-- <div class="frame"></div> -->
 	</div>
 
 	<h4 class="video-page">Imprimă de oriunde cu Wi-fi</h4>
 	<div class="video">
-		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/zvP8z0pcZ1k" frameborder="0" allowfullscreen></iframe>
+		<iframe class="frame" width="708" height="411" src="//www.youtube.com/embed/4Kl_kIAN914" frameborder="0" allowfullscreen></iframe>
 		<!-- <div class="frame"></div> -->
 	</div>
 </div>
