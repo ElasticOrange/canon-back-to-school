@@ -13,7 +13,7 @@ $(document).ready(function() {
             optradio: $('input[type=radio]:checked').val(),
             };
         return $.ajax(
-            {   
+            {
                 url: $('[data-form=true]').attr('action'),
                 type: $('[data-form=true]').attr('method'),
                 data: p,
@@ -26,6 +26,7 @@ $(document).ready(function() {
                         $('div.content').hide();
                         $('.invizibil').show();
                         console.log("OK");
+                        _gaq.push(['_trackEvent', 'inscriere', 'succes']);
                     }
                     else
                     {
@@ -35,25 +36,25 @@ $(document).ready(function() {
                 error: function(p)
                 {
                     $('.blackline').removeClass("warning");
-                    
+
                     if (typeof p.responseJSON.email != 'undefined')
                     {
                         $('.email-input').addClass("warning");
                         // console.log('Nu exista email');
                     }
-                    
+
                     if (typeof p.responseJSON.nume != 'undefined')
                     {
                         $('.nume-input').addClass("warning");
                         // console.log('Nu exista nume');
                     }
-                    
+
                     if (typeof p.responseJSON.telefon != 'undefined')
                     {
                         $('.telefon-input').addClass("warning");
                         // console.log('Nu exista telefon');
                     }
-                    
+
                     console.log(p);
                 },
             });
