@@ -32,9 +32,7 @@
 
 	<p class="conditii">**Canon Pixma MG5650, MG6650, MG7550, MX535, MX925, LBP6030, MF3010, MF211</p>
 	<br />
-	<a href="#">
-		<p class="regulament">REGULAMENT ></p>
-	</a>
+	<a target="_blank" href="/docs/Regulament_Canon_Back_to_school.pdf" class="regulament">REGULAMENT </a>
 
 	<a href="/inscriere"><div class="btn-trimite-inscriere"><span class="btn-inscriere">Mai departe</span></div></a>
 </div>

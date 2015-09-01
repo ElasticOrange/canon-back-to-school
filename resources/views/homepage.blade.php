@@ -41,8 +41,6 @@ imprimante Pixma aflate în promoţie la partenerii autorizaţi.</span>
 
 		<p class="conditii2">**Canon Pixma MG5650, MG6650, MG7550, MX535, MX925, LBP6030, MF3010, MF211</p>
 
-		<a href="#">
-			<p class="regulament2">REGULAMENT ></p>
-		</a>
+		<a target="_blank" href="/docs/Regulament_Canon_Back_to_school.pdf" class="regulament">REGULAMENT </a>
 	</div>
 @stop

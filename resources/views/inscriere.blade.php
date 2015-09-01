@@ -6,7 +6,7 @@
 @include('header')
 <br />
 <div class="content">
-	<span class="date">Lasă-ne datele tale şi poţi câştiga prin tragere la sorţi una din cele două imprimante Canon Pixma.</span>
+	<span class="date">Lasă-ne datele tale şi poţi câştiga prin tragere la sorţi una din cele două imprimante Canon Pixma sau un iPad Mini.</span>
 	<p class="intrebare">Ce funcţie ţi s-a părut cea mai cool?</p><br/>
 	<br />
 
@@ -28,7 +28,7 @@
 		<input type="email" value="{{ old('email') }}" data-email="true" name="email" class="emailbox">
 		<div class="blackline email-input"></div>
 		<br>
-	    
+
 	    <label for="nume" class="forlabel numelabel">Nume şi Prenume</label>
 	    <input type="text"  value="{{ old('nume') }}" data-nume="true" name="nume" class="numebox">
 	    <div class="blackline nume-input"></div>
@@ -39,7 +39,7 @@
 		<div class="blackline telefon-input"></div>
 		<br /><br />
 
-		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked"> 
+		<input type="checkbox" class="checkbox2" name="contact" data-checkbox="true" value="1" checked="checked">
 			<h4 class="checkbox3">Accept să fiu informat despre viitoarele promoţii</h4>
 	    	<div type="submit" data-buton="true" class="btn-trimite"><span class="btn-inscrie">Mă inscriu</span></div>
 	</form>
@@ -58,7 +58,7 @@
 	<span class="premii">PREMII | </span>
 
 	<span class="premii-intrebare">Urmăreşte-ne şi află dacă ai câştigat, extragerile vor avea loc pe data de 1 octombrie 2015</span>
-	
+
 	<span class="doix">2 x</span>
 	<span class="unux">1 x</span>
 	<span class="imprimanta">Imprimanta Canon PIXMA</span>
@@ -71,16 +71,14 @@
 
 	<p class="conditii">**Canon Pixma MG5650, MG6650, MG7550, MX535, MX925, LBP6030, MF3010, MF211</p>
 
-	<a href="#">
-	<p class="regulament">REGULAMENT ></p>
-	</a>
+	<a target="_blank" href="/docs/Regulament_Canon_Back_to_school.pdf" class="regulament">REGULAMENT </a>
 </div>
 @stop
 
 
 @section('js')
 <script type="text/javascript" language="javascript">
-	
+
 	$('div.form-inscriere input').blur(function() {
 		$('.blackline').removeClass('blackline-selected');
 	});
