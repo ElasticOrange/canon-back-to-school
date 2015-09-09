@@ -28,6 +28,17 @@
 
         @yield('js')
 
+        <script type="text/javascript" language="javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+        <script type="text/javascript" language="javascript">
+            FB.init({
+                appId: '978146678914734',
+            });
+            window.fbAsyncInit = function () {
+                FB.Canvas.setSize();
+            }
+            FB.Canvas.setAutoGrow();
+        </script>
+
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-55513824-8']);
