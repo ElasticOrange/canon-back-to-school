@@ -16,5 +16,5 @@ Route::post('/', 'HomeController@index');
 
 Route::get('/pixma-e-cool', 'HomeController@getVideo');
 
-Route::get('/inscriere', 'EntryController@getIndex');
-Route::post('/inscriere', 'EntryController@postIndex');
+// Route::get('/inscriere', 'EntryController@getIndex');
+// Route::post('/inscriere', 'EntryController@postIndex');
